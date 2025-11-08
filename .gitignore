@@ -1,0 +1,79 @@
+.env
+
+# -------------------------
+#  Python Backend
+# -------------------------
+
+# Virtual environment
+myenv/
+venv/
+env/
+
+# Python cache + compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.so
+
+# IDE / editor cache
+.vscode/
+.idea/
+*.swp
+
+# Local config / env variables
+.env
+.env.*
+
+# Log files
+*.log
+logs/
+
+# Mac / Windows useless files
+.DS_Store
+Thumbs.db
+
+
+# -------------------------
+#  Node / React Frontend  (if added later)
+# -------------------------
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Cache
+.npm/
+.yarn/
+.pnpm-store/
+.cache/
+*.log
+
+# Env for frontend
+*.env.local
+*.env.development
+*.env.production
+
+
+# -------------------------
+#  Portfolio resources (optional)
+# -------------------------
+
+# If keeping PDFs in repo, allow them — otherwise ignore:
+# /app/resources/*.pdf
+# /app/resources/*.txt
+
+# -------------------------
+#  OS Generated
+# -------------------------
+$RECYCLE.BIN/
+*.tmp
+*.bak
+*.orig
