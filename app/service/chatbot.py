@@ -8,7 +8,7 @@ gemini_api_key = os.getenv('GOOGLE_API_KEY');
 #openai = OpenAI()
 gemini = OpenAI(api_key=gemini_api_key,base_url="https://generativelanguage.googleapis.com/v1beta/openai/")
 
-reader = PdfReader("app\resources\linkedin.pdf")
+reader = PdfReader("app/resources/linkedin.pdf")
 linkedin = ""
 for page in reader.pages:
     text = page.extract_text()
